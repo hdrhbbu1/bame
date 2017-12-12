@@ -33,9 +33,9 @@ module.exports = React.createClass({
           <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
           <title>{ title }</title>
           { css }
-          <link rel="shortcut icon" href='/bakadono_favicon_32plus144@.png' />
-          <link rel="apple-touch-icon" href='/bakadono_favicon_32plus144@.png' />
-          <meta property="og:image" content='/bakadono-144@.png' />
+          <link rel="shortcut icon" href='/achau.png' />
+          <link rel="apple-touch-icon" href='/achau.png' />
+          <meta property="og:image" content='/achau-144@.png' />
 		  <meta name="google-site-verification" content='d9ktQdSdvZcuuwxBsSsreBoPrB667YE1gWzvdlYHhV0' />
 		  <meta name="format-detection" content='telephone=no' />
           {head.meta.toComponent()}
@@ -70,7 +70,7 @@ function buildGoogleAnalyticsSetup() {
 function buildGoogleAdSense() {
   const js = `
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: 'ca-pub-IDHERE',
+    google_ad_client: 'ca-pub-2729127052366733',
     enable_page_level_ads: true
   });
   `;
