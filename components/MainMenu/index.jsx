@@ -5,9 +5,9 @@ import { config } from 'config'
 import Ink from 'react-ink'
 
 import './style.scss'
-import iconReleases from '../../static/img/svg-icons/monphu.svg'
-import iconArtists from '../../static/img/svg-icons/monan.svg'
-import iconEvents from '../../static/img/svg-icons/news.svg'
+import iconReleases from '../../static/img/svg-icons/bakadono.svg'
+import iconArtists from '../../static/img/svg-icons/facebook.svg'
+import iconEvents from '../../static/img/svg-icons/events.svg'
 
 class MainMenu extends React.Component {
     render() {
