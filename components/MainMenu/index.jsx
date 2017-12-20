@@ -20,19 +20,19 @@ class MainMenu extends React.Component {
 
                 <Link to={ prefixLink('/releases/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/releases/')) == 0 ? 'is-selected' : '' }`} >
                     <img className='mainmenu__link-icon' src={ prefixLink(iconReleases) }/>
-                    <span className='mainmenu__link-name'>Món phụ</span>
+                    <span className='mainmenu__link-name'>Asinice</span>
                     <Ink />
                 </Link> 
 
                 <Link to={ prefixLink('/artists/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/artists/')) == 0 ? 'is-selected' : '' }`} >
                     <img className='mainmenu__link-icon' src={ prefixLink(iconArtists) }/>
-                    <span className='mainmenu__link-name'>Món chính</span>
+                    <span className='mainmenu__link-name'>Mỹ Phẩm</span>
                     <Ink />
                 </Link> 
 
                 <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`} >
                     <img className='mainmenu__link-icon' src={ prefixLink(iconEvents) }/>
-                    <span className='mainmenu__link-name'>Thực đơn</span>
+                    <span className='mainmenu__link-name'>Events</span>
                     <Ink />
                 </Link> 
 
