@@ -1,9 +1,7 @@
-# Trà Sữa Phú Quốc
-Trà Sữa Phú Quốc http://trasuaphuquoc.com
+# `mxstbr.blog`
 
-# Đơn vị phát triển
+The repository for my Jekyll–based blog, hosted on GitHub pages.
 
-Doanh nghiệp tư nhân Thảo Am
-- phụ trách Frameworks Bakadono
-- xuantiep.pham@gmail.com
-- Phan Huỳnh Nga
+## License
+
+Code released under [the MIT license](LICENSE.txt).
